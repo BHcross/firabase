@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Zen</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+  <script src="./p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-database.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAFcmW1OIq3f_IMRWWg6yQetDSUfyG2CT4",
+      authDomain: "jogo-de-carros-multi-jog-d7754.firebaseapp.com",
+      databaseURL: "https://jogo-de-carros-multi-jog-d7754-default-rtdb.firebaseio.com",
+      projectId: "jogo-de-carros-multi-jog-d7754",
+      storageBucket: "jogo-de-carros-multi-jog-d7754.appspot.com",
+      messagingSenderId: "640123585472",
+      appId: "1:640123585472:web:b98370a477f515917c3e25"
+    };
+    </script>
+    <script>
+  // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
